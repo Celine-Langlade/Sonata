@@ -1,0 +1,11 @@
+files_images:
+    resource: "@FilesBundle/Resources/config/routing/images.yml"
+    prefix:   /images
+
+files_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FilesBundle:Default:index }
+
+new:
+    path:    /new
+    defaults: { _controller: FilesBundle:Images:create }

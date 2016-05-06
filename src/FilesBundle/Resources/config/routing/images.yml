@@ -1,0 +1,30 @@
+images:
+    path:     /
+    defaults: { _controller: "FilesBundle:Images:index" }
+
+images_show:
+    path:     /{id}/show
+    defaults: { _controller: "FilesBundle:Images:show" }
+
+images_new:
+    path:     /new
+    defaults: { _controller: "FilesBundle:Images:new" }
+
+images_create:
+    path:     /create
+    defaults: { _controller: "FilesBundle:Images:create" }
+    methods:  POST
+
+images_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "FilesBundle:Images:edit" }
+
+images_update:
+    path:     /{id}/update
+    defaults: { _controller: "FilesBundle:Images:update" }
+    methods:  [POST, PUT]
+
+images_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "FilesBundle:Images:delete" }
+    methods:  [POST, DELETE]
