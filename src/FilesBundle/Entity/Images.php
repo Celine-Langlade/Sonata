@@ -2,7 +2,7 @@
 
 namespace FilesBundle\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
+
 
 /**
  * Images
